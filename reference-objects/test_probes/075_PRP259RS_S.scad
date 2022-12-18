@@ -7,3 +7,4 @@ module 075_PRP259RS_S() {
    color("Gold")
    translate([0,0,2])cylinder(h=8,d=0.64,center=false);
 }
+075_PRP259RS_S();

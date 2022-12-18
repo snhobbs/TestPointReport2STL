@@ -9,3 +9,4 @@ module default_probe() {
    color("Red")
    translate([0,0,2])cylinder(h=7.62,d=0.64,center=false);
 }
+default_probe();

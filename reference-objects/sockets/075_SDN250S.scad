@@ -20,4 +20,4 @@ module 075_SDN250S_pinhole() {
     translate([0,0,through_all/2-ring_top_dz])cylinder(h=through_all,d=d_top_ring,center=true);
     translate([0,0,through_all/2-(ring_top_dz+rings_dz)])cylinder(h=through_all,d=d_bottom_ring,center=true);
 }
-075_SDN250S_pinhole();
+075_SDN250S();
